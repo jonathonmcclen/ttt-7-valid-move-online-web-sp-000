@@ -2,7 +2,7 @@
 
 def valid_move(array, index)
   if index + 1 <= array.length
-    #position_taken
+    position_taken
   else
     false
   end
