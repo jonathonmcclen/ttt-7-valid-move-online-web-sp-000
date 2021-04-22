@@ -1,8 +1,8 @@
 # code your #valid_move? method here
 
 def valid_move?(array, index)
-  if index <= 9 && 
-    trueposition_taken?(array,index)
+  if index <= 9
+    position_taken?(array,index)
   else
     false
   end
